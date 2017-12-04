@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:configChanges="orientation|keyboardHidden"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Gato"
+            android:textColor="@color/colorAccent"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="10dp">
+
+        <TableRow android:layout_weight="1">
+            <EditText
+                android:id="@+id/activity_main_txt1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="none"
+                android:focusable="false"
+                android:onClick="fillBox"
+                android:textSize="20pt"
+                />
+
+            <EditText
+                android:id="@+id/activity_main_txt2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:onClick="fillBox"
+                android:textSize="35sp" />
+
+            <EditText
+                android:id="@+id/activity_main_txt3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="none"
+                android:focusable="false"
+                android:onClick="fillBox"
+                android:textSize="35sp"
+                />
+        </TableRow>
+        <TableRow android:layout_weight="1">
+            <EditText
+                android:id="@+id/activity_main_txt4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="none"
+                android:focusable="false"
+                android:onClick="fillBox"
+                android:textSize="35sp"
+                />
+            <EditText
+                android:id="@+id/activity_main_txt5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="none"
+                android:focusable="false"
+                android:onClick="fillBox"
+                android:textSize="35sp"
+                />
+            <EditText
+                android:id="@+id/activity_main_txt6"
+                android:layout_width="0dp"
+                android:layout_margin="4dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="none"
+                android:focusable="false"
+                android:onClick="fillBox"
+                android:textSize="35sp"
+                />
+        </TableRow>
+        <TableRow android:layout_weight="1">
+            <EditText
+                android:id="@+id/activity_main_txt7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="none"
+                android:focusable="false"
+                android:onClick="fillBox"
+                android:textSize="35sp"
+                />
+            <EditText
+                android:id="@+id/activity_main_txt8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="none"
+                android:focusable="false"
+                android:onClick="fillBox"
+                android:textSize="35sp"
+                />
+            <EditText
+                android:id="@+id/activity_main_txt9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="none"
+                android:focusable="false"
+                android:onClick="fillBox"
+                android:textSize="35sp"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_main_btnHistorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="btnHistorial_click"
+            android:text="Historial" />
+
+        <Button
+            android:id="@+id/activity_main_btnJuegoNuevo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="btnJuegoNuevo_click"
+            android:text="Juego Nuevo" />
+    </LinearLayout>
+</LinearLayout>
